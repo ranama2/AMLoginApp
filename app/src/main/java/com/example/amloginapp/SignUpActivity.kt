@@ -26,6 +26,9 @@ class SignUpActivity: AppCompatActivity() {
             val submittedPassword = binding.etSignUpPassword.text.toString()
             val submittedPasswordConfirm = binding.etSignUpPasswordConfirm.text.toString()
 
+
+
+
             if (submittedUsername.isEmpty()){
                 Toast.makeText(this, "Please enter a username", Toast.LENGTH_SHORT).show()
             } else if (!Patterns.EMAIL_ADDRESS.matcher(submittedEmail).matches()) {
@@ -41,6 +44,8 @@ class SignUpActivity: AppCompatActivity() {
                     if (it.isSuccessful){
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
+                    } else {
+                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
                     }
                 }
             }

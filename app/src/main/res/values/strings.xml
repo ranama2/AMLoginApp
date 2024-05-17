@@ -4,4 +4,7 @@
     <string name="submit">Submit</string>
     <string name="already_a_user_login">Already a user? Login</string>
     <string name="submit_signup">Submit</string>
+    <string name="google_signin">Google Signin</string>
+    <string name="sign_out">Sign out</string>
+    <string name="default_web_client_id" />
 </resources>

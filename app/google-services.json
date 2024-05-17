@@ -12,7 +12,20 @@
           "package_name": "com.example.amloginapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1056189690250-g298c3ftg6m83grie1la7j42ghato12r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amloginapp",
+            "certificate_hash": "b42075a7c79af957686d23fe0829fcb581585f36"
+          }
+        },
+        {
+          "client_id": "1056189690250-j8sq1h30u522dop69p5aitm5teofj8bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDhi1Ejyg4uQdgfr_5guonXe1YnReySXmM"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056189690250-79auaji7dq3s68ujutumdnqh2lc227q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
